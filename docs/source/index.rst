@@ -21,7 +21,7 @@ Contents
 
 .. toctree::
 
-   reference
+   index
    locomotion
    servos
    sensors
