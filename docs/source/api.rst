@@ -1,10 +1,18 @@
 API Reference Guide
 ===================
 
+.. raw:: html
+
+   <hr>
+
 The following reference guide outlines the API of `EZBotball`_.
 
 Gyro Movement
 =============
+
+.. raw:: html
+
+   <hr>
 
 The most optimal methods for moving robots, using the Gyroscope and advanced mathematic methods.
 
