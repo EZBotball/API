@@ -1,13 +1,12 @@
-Welcome to Lumache's documentation!
+EZBotball API Reference Guide
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**EZBotball** is a C library designed for KIPR's Botball competition. The library is intended to provide the public with various methods that make all programming efforts much easier. Additionally, this library and reference guide can be used for educational purposes.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+The EZBotball library can be found at <https://github.com/EZBotball/>`_
+
+
+Visit :doc:`api` for the reference guide and :doc:`about` for additional information about the library and its authors.
 
 .. note::
 
@@ -18,5 +17,5 @@ Contents
 
 .. toctree::
 
-   usage
    api
+   about
