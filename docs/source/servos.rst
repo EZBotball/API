@@ -1,6 +1,8 @@
 Servos
 =============
 
+Perfected servo functions with tons of parameters for users to achieve desired results. Threading capabilities are included in the library, however they are not endorsed by KIPR.
+
 ``example_servo(speed, time)``
 ---------------------------
 
