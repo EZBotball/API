@@ -1,3 +1,8 @@
+.. raw:: html
+   <style> .black {color:#000000; font-weight:bold;} </style>
+
+.. role:: black
+
 API Reference Guide
 ===================
 
@@ -16,7 +21,7 @@ Locomotion
 
 The most optimal methods for moving robots, using the Gyroscope and advanced mathematic methods.
 
-``example_drive(speed, time)``
+:black:``example_drive(speed, time)``
 ---------------------------
 
 Parameters
