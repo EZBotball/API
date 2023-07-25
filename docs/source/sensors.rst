@@ -1,6 +1,8 @@
 Sensors
 =============
 
+Sensor-based functions that build upon the KIPR functions.
+
 ``example_sensor(speed, time)``
 ---------------------------
 
