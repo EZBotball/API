@@ -16,17 +16,17 @@ Locomotion
 
 The most optimal methods for moving robots, using the Gyroscope and advanced mathematic methods.
 
-example_drive(*speed*, *time*)
+``example_drive(speed, time)``
 ---------------------------
 
 Parameters
 ^^^^^^^^^^
-* **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
-* **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
+   * **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
+   * **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
 
 KIPR Functions
 ^^^^^^^^^^^^^^
-* `mav`_ (*motor*, *velocity*)
+   * `mav`_ (*motor*, *velocity*)
 
 Servos
 =============
@@ -35,17 +35,17 @@ Servos
 
    <hr>
 
-example_servo(*speed*, *time*)
+``example_servo(speed, time)``
 ---------------------------
 
 Parameters
 ^^^^^^^^^^
-* **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
-* **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
+   * **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
+   * **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
 
 KIPR Functions
 ^^^^^^^^^^^^^^
-* `mav`_ (*motor*, *velocity*)
+   * `mav`_ (*motor*, *velocity*)
 
 Sensors
 =============
@@ -54,32 +54,32 @@ Sensors
 
    <hr>
 
-example_sensor(*speed*, *time*)
+``example_sensor(speed, time)``
 ---------------------------
 
 Parameters
 ^^^^^^^^^^
-* **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
-* **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
+   * **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
+   * **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
 
 KIPR Functions
 ^^^^^^^^^^^^^^
-* `mav`_ (*motor*, *velocity*)
+   * `mav`_ (*motor*, *velocity*)
 
 Helpers
 =============
 
-example_helper(*speed*, *time*)
+``example_helper(speed, time)``
 ---------------------------
 
 Parameters
 ^^^^^^^^^^
-* **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
-* **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
+   * **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
+   * **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
 
 KIPR Functions
 ^^^^^^^^^^^^^^
-* `mav`_ (*motor*, *velocity*)
+   * `mav`_ (*motor*, *velocity*)
 
 .. raw:: html
 
