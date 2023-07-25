@@ -7,7 +7,7 @@ API Reference Guide
 
 The following reference guide outlines the API of `EZBotball`_.
 
-Gyro Movement
+Locomotion
 =============
 
 .. raw:: html
@@ -16,7 +16,7 @@ Gyro Movement
 
 The most optimal methods for moving robots, using the Gyroscope and advanced mathematic methods.
 
-gyro_drive(*speed*, *time*)
+example_drive(*speed*, *time*)
 ---------------------------
 
 Parameters
@@ -27,6 +27,63 @@ Parameters
 KIPR Functions
 ^^^^^^^^^^^^^^
 * `mav`_ (*motor*, *velocity*)
+
+Servos
+=============
+
+.. raw:: html
+
+   <hr>
+
+example_servo(*speed*, *time*)
+---------------------------
+
+Parameters
+^^^^^^^^^^
+* **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
+* **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
+
+KIPR Functions
+^^^^^^^^^^^^^^
+* `mav`_ (*motor*, *velocity*)
+
+Sensors
+=============
+
+.. raw:: html
+
+   <hr>
+
+example_sensor(*speed*, *time*)
+---------------------------
+
+Parameters
+^^^^^^^^^^
+* **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
+* **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
+
+KIPR Functions
+^^^^^^^^^^^^^^
+* `mav`_ (*motor*, *velocity*)
+
+Helpers
+=============
+
+example_helper(*speed*, *time*)
+---------------------------
+
+Parameters
+^^^^^^^^^^
+* **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
+* **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
+
+KIPR Functions
+^^^^^^^^^^^^^^
+* `mav`_ (*motor*, *velocity*)
+
+.. raw:: html
+
+   <hr>
 
 .. _EZBotball: https://github.com/EZBotball
 .. _int: https://devdocs.io/c/language/types
