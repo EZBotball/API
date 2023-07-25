@@ -21,7 +21,10 @@ Contents
 
 .. toctree::
 
-   api
+   locomotion
+   servos
+   sensors
+   helpers
    about
 
 .. _EZBotball: https://github.com/EZBotball/Library
