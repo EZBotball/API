@@ -1,6 +1,8 @@
 Helpers
 =============
 
+Helper functions.
+
 ``example_helper(speed, time)``
 ---------------------------
 
