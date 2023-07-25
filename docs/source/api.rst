@@ -1,18 +1,14 @@
 API Reference Guide
 ===================
 
+The following reference guide outlines the API of `EZBotball`_.
+
 .. raw:: html
 
    <hr>
-
-The following reference guide outlines the API of `EZBotball`_.
 
 Locomotion
 =============
-
-.. raw:: html
-
-   <hr>
 
 The most optimal methods for moving robots, using the Gyroscope and advanced mathematic methods.
 
@@ -28,12 +24,12 @@ KIPR Functions
 ^^^^^^^^^^^^^^
    * `mav`_ (*motor*, *velocity*)
 
-Servos
-=============
-
 .. raw:: html
 
    <hr>
+
+Servos
+=============
 
 ``example_servo(speed, time)``
 ---------------------------
@@ -47,12 +43,12 @@ KIPR Functions
 ^^^^^^^^^^^^^^
    * `mav`_ (*motor*, *velocity*)
 
-Sensors
-=============
-
 .. raw:: html
 
    <hr>
+
+Sensors
+=============
 
 ``example_sensor(speed, time)``
 ---------------------------
@@ -65,6 +61,10 @@ Parameters
 KIPR Functions
 ^^^^^^^^^^^^^^
    * `mav`_ (*motor*, *velocity*)
+
+.. raw:: html
+
+   <hr>
 
 Helpers
 =============
@@ -80,10 +80,6 @@ Parameters
 KIPR Functions
 ^^^^^^^^^^^^^^
    * `mav`_ (*motor*, *velocity*)
-
-.. raw:: html
-
-   <hr>
 
 .. _EZBotball: https://github.com/EZBotball/Library
 .. _int: https://devdocs.io/c/language/types
