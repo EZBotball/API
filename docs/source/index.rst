@@ -12,6 +12,10 @@ Visit :doc:`api` for the reference guide and :doc:`about` for additional informa
 
    This project is under active development.
 
+.. raw:: html
+
+   <hr>
+
 Contents
 --------
 
