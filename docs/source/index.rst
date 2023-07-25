@@ -20,4 +20,4 @@ Contents
    api
    about
 
-.. _EZBotball: https://github.com/EZBotball
+.. _EZBotball: https://github.com/EZBotball/Library
