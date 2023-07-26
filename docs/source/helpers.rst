@@ -4,7 +4,7 @@ Helpers
 Helper functions.
 
 ``viprint(val)``
----------------------------
+----------------
 
 a simple debugging function used for easily printing integer values
 
@@ -17,7 +17,7 @@ Parameters
    <hr>
 
 ``vfprint(val)``
----------------------------
+----------------
 
 a simple debugging function used for easily printing float values
 
@@ -26,10 +26,11 @@ Parameters
    * **val** (`int`_) - the value to be printed, any valid float
 
 .. raw:: html
+
    <hr>
 
 ``clear_wheels()``
----------------------------
+------------------
 
 clears the motor position for both the left and right wheels of the robot as determined by
 the left and right wheel defines
@@ -37,13 +38,14 @@ the left and right wheel defines
 
 KIPR Functions
 ^^^^^^^^^^^^^^
-    * `cmpc`_(*port*)
+    * `cmpc`_ (*port*)
 
 .. raw:: html
+
    <hr>
 
 ``set_accel_window(distance)``
----------------------------
+------------------------------
 
 used the set the accel and deccel of locomotion functions
 
@@ -56,7 +58,7 @@ Parameters
    <hr>
 
 ``analog_avg(port,loops)``
----------------------------
+--------------------------
 basic function used to average the analog sensors for a certain amount of loops
 there is a 5 millisecond delay in between that data collection
 
@@ -70,7 +72,7 @@ Parameters
    <hr>
 
 ``calculate_location_change(right_movement, left_movement, theta)``
----------------------------
+-------------------------------------------------------------------
 this function returns a Struct of type position holding the change in x, y, and theta based on
 the given input. The math does not account for the perfect curve of the driven distance, and 
 instead uses much simpler triangular math becuase it is supposed to be sampled fast inside of a loop. 
@@ -88,7 +90,7 @@ Parameters
    <hr>
 
 ``calculate_speed_ramp(final_dist, current_dist)``
----------------------------
+--------------------------------------------------
 returns a float value from 0 to 1 that can be multiplied to a speed. Used internally in locomotion functions
 to smake the accel and decel curve
 
@@ -102,7 +104,7 @@ Parameters
    <hr>
 
 ``in_range(current, desired, spread)``
----------------------------
+--------------------------------------
 a simple calculation function that returns 1 if a value is in range of a desired number and 0 if it is not
 
 Parameters
