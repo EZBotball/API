@@ -3,17 +3,45 @@ Helpers
 
 Helper functions.
 
-``example_helper(speed, time)``
+``viprint(val)``
 ---------------------------
+
+a simple debugging function used for easily printing integer values
 
 Parameters
 ^^^^^^^^^^
-   * **speed** (`int`_) - The speed of the motors. Accepts values 0-100.
-   * **time** (`int`_) - The amount of time for the robot to drive forward in seconds.
+   * **val** (`int`_) - the value to be printed, any valid integer
+
+
+``vfprint(val)``
+---------------------------
+
+a simple debugging function used for easily printing float values
+
+Parameters
+^^^^^^^^^^
+   * **val** (`int`_) - the value to be printed, any valid float
+
+
+``clear_wheels()``
+---------------------------
+
+clears the motor position for both the left and right wheels of the robot as determined by
+the left and right wheel defines
+
 
 KIPR Functions
 ^^^^^^^^^^^^^^
-   * `mav`_ (*motor*, *velocity*)
+    * `cmpc`_ (*port*)
+
+``set_accel_window(distance)``
+---------------------------
+
+a simple debugging function used for easily printing integer values
+
+Parameters
+^^^^^^^^^^
+   * **distance** (`float`_) - the distance of the acceleration and deceleration of the drives in cm
 
 .. raw:: html
 
