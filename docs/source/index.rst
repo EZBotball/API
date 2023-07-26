@@ -25,6 +25,7 @@ Contents
    servos
    sensors
    helpers
+   datatypes
    about
 
 .. _EZBotball: https://github.com/EZBotball/Library
