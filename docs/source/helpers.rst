@@ -12,6 +12,9 @@ Parameters
 ^^^^^^^^^^
    * **val** (`int`_) - the value to be printed, any valid integer
 
+.. raw:: html
+
+   <hr>
 
 ``vfprint(val)``
 ---------------------------
@@ -22,6 +25,8 @@ Parameters
 ^^^^^^^^^^
    * **val** (`int`_) - the value to be printed, any valid float
 
+.. raw:: html
+   <hr>
 
 ``clear_wheels()``
 ---------------------------
@@ -32,7 +37,10 @@ the left and right wheel defines
 
 KIPR Functions
 ^^^^^^^^^^^^^^
-    * `cmpc`_ (*port*)
+    * `cmpc`_(*port*)
+
+.. raw:: html
+   <hr>
 
 ``set_accel_window(distance)``
 ---------------------------
@@ -47,5 +55,12 @@ Parameters
 
    <hr>
 
+
+
+
+
+
 .. _int: https://devdocs.io/c/language/types
+.. _float: https://devdocs.io/c/language/types
+.. _cmpc: https://files.kipr.org/wallaby/wallaby_doc/group__motor.html#ga3f000f325222eb01b69844290a654795
 .. _mav: https://www.kipr.org/doc/group__motor.html#gabd36f01986c363f70d86c7a768ae1348
