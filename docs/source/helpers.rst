@@ -81,13 +81,39 @@ Parameters
 ^^^^^^^^^^
    * **right_movement** (`double`_) - the distance the right wheel has travelled since last sample
    * **left_movement** (`double`_) - the distance the left wheel has travelled since last sample
-   * **theta** (`double`_) - the overall angle of the robot since the start of the loop, *this is unlike the previous two parameters that only ask for change in movement that loop*
+   * **theta** (`double`_) - the overall angle of the robot since the start of the loop, **this is unlike the previous two parameters that only ask for change in movement that loop**
 
 .. raw:: html
 
    <hr>
 
+``calculate_speed_ramp(final_dist, current_dist)``
+---------------------------
+returns a float value from 0 to 1 that can be multiplied to a speed. Used internally in locomotion functions
+to smake the accel and decel curve
 
+Parameters
+^^^^^^^^^^
+   * **final_dist** (`float`_) - the total distance that needs to be travelled in cm
+   * **current_dist** (`float`_) - the current distance travelled in cm
+
+.. raw:: html
+
+   <hr>
+
+``in_range(current, desired, spread)``
+---------------------------
+a simple calculation function that returns 1 if a value is in range of a desired number and 0 if it is not
+
+Parameters
+^^^^^^^^^^
+   * **current** (`float`_) - the current value
+   * **desired** (`float`_) - tthe desired value
+   * **spread** (`float`_) - the spread both left and right of the desired value for which to look for the current value in
+
+.. raw:: html
+
+   <hr>
 
 
 .. _int: https://devdocs.io/c/language/types
